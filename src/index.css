@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-surface: #081422;
+  --color-surface-dim: #081422;
+  --color-surface-bright: #2e3a4a;
+  --color-surface-container-lowest: #030f1d;
+  --color-surface-container-low: #101c2b;
+  --color-surface-container: #14202f;
+  --color-surface-container-high: #1f2b3a;
+  --color-surface-container-highest: #2a3645;
+  --color-primary: #43e2c2;
+  --color-primary-container: #00c6a7;
+  --color-on-primary: #00382d;
+  --color-on-surface: #d7e3f8;
+  --color-on-surface-variant: #bacac4;
+  --color-tertiary: #ffc068;
+  --color-tertiary-container: #eea01b;
+  --color-on-tertiary: #452b00;
+  --color-on-tertiary-container: #5e3c00;
+  --color-error: #ffb4ab;
+  --color-error-container: #93000a;
+  --color-outline: #85948e;
+  --color-outline-variant: #3c4a45;
+  --color-secondary: #bbc7db;
+  --color-secondary-container: #3c4858;
+  --font-headline: "Space Grotesk", sans-serif;
+  --font-body: "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  --font-sans: "Inter", sans-serif;
+  --radius: 0px;
+  --radius-lg: 0px;
+  --radius-xl: 0px;
+}
+
+* { scrollbar-width: thin; scrollbar-color: #2a3645 #081422; }
+::-webkit-scrollbar { width: 4px; height: 4px; }
+::-webkit-scrollbar-track { background: #081422; }
+::-webkit-scrollbar-thumb { background: #2a3645; }
+::-webkit-scrollbar-thumb:hover { background: #43e2c2; }
+
+body {
+  background: #081422;
+  color: #d7e3f8;
+  font-family: "Inter", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection { background: #43e2c2; color: #00382d; }
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+  vertical-align: middle;
+}
+
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 8px rgba(67,226,194,0.4); }
+  50% { box-shadow: 0 0 20px rgba(67,226,194,0.8); }
+}
+.pulse-glow { animation: pulse-glow 2s ease-in-out infinite; }
