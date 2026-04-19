@@ -1,35 +1,35 @@
 <p align="center">
-  <img src="https://img.shields.io/badge/AETHER-ACM-00D4FF?style=for-the-badge&labelColor=0a0a1a&logo=satellite&logoColor=00D4FF" alt="AETHER ACM" />
-  <img src="https://img.shields.io/badge/National_Space_Hackathon-2026-FF6B35?style=for-the-badge&labelColor=0a0a1a&logo=rocket&logoColor=FF6B35" alt="NSH 2026" />
-  <img src="https://img.shields.io/badge/IIT_Delhi-Competition-gold?style=for-the-badge&labelColor=0a0a1a&logo=data:image/svg+xml;base64,..." alt="IIT Delhi" />
+  <img src="https://img.shields.io/badge/VenueFlow-Command_AI-00c6a7?style=for-the-badge&labelColor=101c2b&logo=google-gemini&logoColor=00c6a7" alt="VenueFlow Command AI" />
+  <img src="https://img.shields.io/badge/Google_Gemini-2.5_Flash-ccaa00?style=for-the-badge&labelColor=101c2b&logo=google&logoColor=ccaa00" alt="Google Gemini" />
+  <img src="https://img.shields.io/badge/React_Vite-Express-43e2c2?style=for-the-badge&labelColor=101c2b&logo=react&logoColor=43e2c2" alt="React + Node" />
 </p>
 
 <h1 align="center">
-  🛰️ Project AETHER
+  🏟️ VenueFlow Command AI
 </h1>
 
 <h3 align="center">
-  <strong>Autonomous Constellation Manager</strong><br/>
-  <sub>Real-time Orbital Mechanics • KD-Tree Conjunction Assessment • Fuel-Optimal Evasion Planning</sub>
+  <strong>Autonomous Event Logistics & Crowd Operations Manager</strong><br/>
+  <sub>Real-time Telemetry • AI Predictive Routing • Dynamic SQL Gate Control</sub>
 </h3>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Physics_Engine-RK4+J2/J3/J4-00ff88?style=flat-square&labelColor=1a1a2e" />
-  <img src="https://img.shields.io/badge/Conjunction-O(N_log_N)_KD--Tree-ff6b6b?style=flat-square&labelColor=1a1a2e" />
-  <img src="https://img.shields.io/badge/Maneuvers-RTN_Frame_Burns-ffd93d?style=flat-square&labelColor=1a1a2e" />
-  <img src="https://img.shields.io/badge/Satellites-50_Walker_Delta-6c5ce7?style=flat-square&labelColor=1a1a2e" />
-  <img src="https://img.shields.io/badge/Debris-2000_Objects-e17055?style=flat-square&labelColor=1a1a2e" />
+  <img src="https://img.shields.io/badge/Frontend-React_19_|_Tailwind-00c6a7?style=flat-square&labelColor=1a1a2e" />
+  <img src="https://img.shields.io/badge/Backend-Node.js_|_Express-ffc068?style=flat-square&labelColor=1a1a2e" />
+  <img src="https://img.shields.io/badge/Database-SQLite3_|_In--Memory-ffb4ab?style=flat-square&labelColor=1a1a2e" />
+  <img src="https://img.shields.io/badge/Neural_Engine-Gemini_2.5_Flash-43e2c2?style=flat-square&labelColor=1a1a2e" />
+  <img src="https://img.shields.io/badge/Architecture-Cloud_Run_Container-d7e3f8?style=flat-square&labelColor=1a1a2e" />
 </p>
 
 ---
 
 ## 🌌 Overview
 
-**Project AETHER** (Autonomous Extraterrestrial Hazard & Evasion Response) is a production-grade autonomous constellation management system built for the **National Space Hackathon 2026** hosted by **IIT Delhi**.
+**VenueFlow Command AI** represents a state-of-the-art intelligent operational dashboard built for the **Travel & Hospitality / Smart Physical Events** sector. 
 
-It simulates, monitors, and autonomously protects a **50-satellite LEO constellation** against **2,000+ tracked debris objects** using physics-accurate orbital mechanics, real-time conjunction assessment, and fuel-optimal evasion planning.
+Instead of passive dashboards, VenueFlow acts as an **active cybernetic nervous system** for large-scale venues (stadiums, airports, concert halls). It simulates and tracks thousands of assets in real-time, predicting bottlenecks before they happen. Its crown jewel is the newly integrated **Aura AI Optimizer**, powered natively by Google's Gemini 2.5 Flash, capable of directly locking physical gates and re-routing crowds autonomously via dynamic operator prompts.
 
-> **Every computation is physically accurate** — from the RK4+J2/J3/J4 propagator to the Tsiolkovsky rocket equation. No approximations, no shortcuts.
+> **Bridging Neural Compute to Physical Actions** — Our AI doesn't just talk. If the model detects a critical severity event from an operator command, it surgically modifies the SQLite active database state, broadcasting real-time lockdowns to the frontend.
 
 ---
 
@@ -37,109 +37,84 @@ It simulates, monitors, and autonomously protects a **50-satellite LEO constella
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│                    AETHER SYSTEM ARCHITECTURE                   │
+│                   VENUEFLOW SYSTEM ARCHITECTURE                 │
 ├─────────────────────────────────────────────────────────────────┤
 │                                                                 │
-│   🖥️ High-Performance V8 Engine (Browser / Node)               │
+│   🖥️ High-Performance Vite Engine (React / Tailwind)           │
 │                                                                 │
 │   ┌───────────────┐     ┌──────────────────────────────────┐   │
-│   │ UI Layer      │◄────┤  Core Physics Simulator          │   │
-│   │ • React / Vite│     │  • RK4 Propagator (J2/J3/J4)     │   │
-│   │ • Three.js 3D │     │  • KD-Tree Conjunction Engine    │   │
-│   │ • WebGL Swarm │     │  • RTN Maneuver Planner          │   │
-│   │ • Dashboard   │────►│  • Ground Station Comms          │   │
-│   └───────────────┘     │  • Fleet Fuel Optimizer          │   │
-│                         └──────────────────────────────────┘   │
+│   │ UI Layer      │◄────┤  Node.js Command Interface       │   │
+│   │ • Live Map    │     │  • Telemetry Simulation Engine   │   │
+│   │ • Analytics   │     │  • SQLite Flow Database          │   │
+│   │ • Aura AI Chat│────►│  • Physical SQL Action Hooks     │   │
+│   │ • Alerts Hub  │     │  • Google Gemini Controller      │   │
+│   └───────────────┘     └──────────────────────────────────┘   │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-## 🔬 Physics Engine — Technical Deep Dive
+## 🔬 Core Mechanics — Technical Deep Dive
 
-### Orbital Propagator: RK4 + Zonal Harmonics
+### 1. Neural Optimizer: Gemini 2.5 Flash
 
-Our propagator uses a classic 4th-order **Runge-Kutta** integrator with **J2, J3, and J4 zonal harmonic perturbations** — the three most significant gravitational effects for LEO orbit prediction.
+Our AI endpoint operates on strict JSON schemas to guarantee the frontend receives structured, reliable directives.
 
-| Constant | Value | Physical Meaning |
+| Parameter | Value | Purpose |
 |----------|-------|-----------------|
-| `μ` | 398600.4418 km³/s² | Earth gravitational parameter (WGS-84) |
-| `R_E` | 6378.137 km | Earth equatorial radius |
-| `J2` | 1.08263×10⁻³ | Oblateness (equatorial bulge) |
-| `J3` | −2.53265×10⁻⁶ | Pear-shaped asymmetry |
-| `J4` | −1.61962×10⁻⁶ | Fourth-order oblateness |
+| `temperature` | 0.1 | High-precision logical output for logistics |
+| `responseMimeType` | application/json | Enforces parseable strict JSON strings |
+| `actions` | Array[String] | Line-by-line procedural steps for the operator |
+| `system_action` | Action Enum | Maps conversational intent to SQL executions |
 
-**Acceleration model:**
+**AI Dynamic Schema Injection:**
+The backend maps natural language directly to physical database executions using a rigid schema block.
+*Example: `"Operator: Shut down the north gate, we have an emergency"` → `system_action: "EMERGENCY_LOCK"` → triggers `UPDATE zones SET gate_open=0`.*
 
-```
-a_total = a_kepler + a_J2 + a_J3 + a_J4
-```
+### 2. Live Telemetry Engine
 
-- **J2** causes secular RAAN regression and argument of perigee advance (~1000× larger than J3/J4)
-- **J3** introduces north-south asymmetry corrections
-- **J4** refines fourth-order oblateness effects
-- **10-second substep** for satellites yields position error < 1 meter over 24 hours
-
-### Conjunction Assessment: Two-Phase Detection
+We've custom-built an in-memory orchestration loop processing 16 live metric nodes and multiple bottleneck queues concurrently.
 
 ```
-Phase 1: KD-Tree Coarse Filter          Phase 2: Golden-Section TCA Refinement
-─────────────────────────────           ──────────────────────────────────────
-O(N log N) construction                  25 iterations → 0.5s precision
-O(M log N) queries                       Precise miss distance at TCA
-50 sats × 2000 debris                    Collision probability (Pc) estimate
-→ ~550 operations vs 100,000 brute       → Sub-meter accuracy
+Simulation Loop
+─────────────────────────────
+1. Heartbeat checks every 8s
+2. Real-time capacity fluctuations using bounding offsets
+3. Event log polling (telemetry, broadcasts, auth)
+4. Instant socket/HTTP propagation to UI dashboard
 ```
 
-### Maneuver Planning: RTN Frame Burns
+### 3. Cybernetic UI Design
 
-| Axis | Effect | Use Case |
+The frontend strictly enforces a premium, dark-mode cybersecurity aesthetic utilizing **TailwindCSS CSS variables**.
+
+| UI Token | Value | Applied To |
 |------|--------|----------|
-| **Radial (R)** | Changes eccentricity | Radial avoidance |
-| **Transverse (T)** | Changes orbital period | Primary evasion (most fuel-efficient) |
-| **Normal (N)** | Plane change | Last resort (VERY expensive) |
-
-**Evasion physics** (Clohessy-Wiltshire linearized relative motion):
-```
-Along-track separation: Δs ≈ 3n × |ΔV_T| × Δt
-Required ΔV: |ΔV_T| = standoff_km / (3 × n × tca_offset)
-```
-
-**Fuel model** — Tsiolkovsky Rocket Equation:
-```
-Δm = m_current × (1 - e^(-ΔV / (Isp × g₀)))
-```
-
-| Parameter | Value |
-|-----------|-------|
-| Isp | 300 s (monopropellant) |
-| g₀ | 9.80665 m/s² |
-| Dry mass | 500 kg |
-| Fuel capacity | 50 kg per satellite |
-| Max ΔV/burn | 15 m/s |
-| Cooldown | 600 s between burns |
+| **Matrix Primary** | `#00c6a7` | Brand text, active selections |
+| **Glow Accent** | `#43e2c2` | Terminal buttons, glowing hover states |
+| **Midnight Base** | `#101c2b` | Application backgrounds, command centers |
+| **Critical Error** | `#ffb4ab` | Emergency Lockdowns, zone overloads |
+| **Font Face** | `JetBrains Mono` | Absolute monospaced terminal tracking |
 
 ---
 
-## 🛡️ Autonomous Decision Engine
+## 🛡️ Autonomous Decision Matrix
 
 ```
-CDM Risk Classification
+Action Classification
 ━━━━━━━━━━━━━━━━━━━━━━
-🔴 CRITICAL   miss < 100m    → Immediate autonomous evasion
-🟠 WARNING    miss < 1.0 km  → Evasion planning initiated
-🟡 CAUTION    miss < 5.0 km  → Enhanced monitoring
-🟢 SAFE       miss ≥ 5.0 km  → Normal operations
+🔴 EMERGENCY_LOCK  → AI executes 'UPDATE zones SET gate_open=0'
+🟠 SYSTEM_REBOOT   → Injects 'Reboot initiated' into telemetry 
+🟢 OPEN_ALL_GATES  → Overrides all SQL gate values to TRUE
+🔵 DEPLOY_ASSET    → Dispatches digital twin resources
 
 Decision Cascade
 ━━━━━━━━━━━━━━━
-1. CDM detected → Risk classification
-2. CRITICAL/WARNING → Check fuel budget
-3. Blind conjunction? → Pre-upload via last LOS window
-4. Fleet optimizer → Can a neighbor satellite assist?
-5. Plan evasion burn → Retrograde T-axis (fuel-optimal)
-6. Plan recovery burn → Return to nominal slot
-7. EOL check → Fuel < 5% → Graveyard transfer (+300 km)
+1. Operator inputs natural language into Aura Terminal
+2. Gemini 2.5 calculates safest operational logic
+3. Response decoded → Is system_action required?
+4. Yes → Execute physical database mutation
+5. Push generated directive array back to UI
 ```
 
 ---
@@ -150,113 +125,62 @@ Decision Cascade
 
 | Tool | Version | Purpose |
 |------|---------|---------|
-| Node.js | ≥ 18 | Engine runtime / Frontend build |
+| Node.js | ≥ 18 | Engine runtime / Backend execution |
 | npm/yarn | latest | Package management |
+| Google Cloud | API Key | Gemini AI Integration |
 
-### Installation & Launch (Development)
+### Local Dev Build
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-team/project-aether.git
-cd project-aether
+git clone https://github.com/Vignesh-P1207/Promptwars.git
+cd Promptwars
 
-# Install dependencies and start the real-time simulation
+# Add your Gemini Key
+echo "GEMINI_API_KEY=your_key_here" > .env
+
+# Install dependencies and launch both UI and Server
 npm install
 npm run dev
 ```
-*The simulation dashboard will launch instantly at `http://localhost:8080`, running 100% locally with zero backend latency.*
 
 ### Production Build (Docker Deployment)
 
-We provide a monolithic multi-stage Docker container that builds the optimized React bundle and serves it via an ultra-fast production server:
+We provide a monolithic multi-stage Docker container that builds the optimized React bundle and serves it via an ultra-fast Express proxy port:
 
 ```bash
 # Build the highly-optimized production image
-docker build -t aether-acm:v3 .
+docker build -t venueflow-app .
 
 # Launch the constellation manager 
-docker run -d -p 8000:8000 --name aether-app aether-acm:v3
+docker run -d -p 8080:8080 --env GEMINI_API_KEY=your_key_here --name venueflow-app venueflow-app
 ```
-*Access the production-ready console at `http://localhost:8000`.*
+*Alternatively, you can instantly push this Docker container directly to Google Cloud Run!*
 
 ---
 
 ## 📁 Project Structure
 
 ```
-orbital-command-console/
+venueflow-app/
+├── server/                       # Express Data Layer
+│   ├── index.js                  # Engine, Gemini Routes, SQLite
 ├── src/                          # Pure Client-Side Application
 │   ├── components/               # High-Performance UI Layer
-│   │   ├── EarthScene.tsx        # Fully GPU-accelerated WebGL swarms
-│   │   ├── CDMAlertFeed.tsx      # Real-time conjunction dashboard
-│   │   ├── SatellitePanel.tsx    # Individual satellite telemetry
-│   │   ├── StatsHeader.tsx       # Fleet-wide statistics header
-│   │   └── GroundTrack.tsx       # 2D ground track projection
-│   ├── hooks/
-│   │   └── useSimulation.ts      # Core Physics Engine & V8 Worker logic
+│   │   ├── Sidebar.tsx           # Navigation map
+│   │   ├── TopBar.tsx            # Global health metrics
 │   ├── pages/
-│   │   ├── HeroPage.tsx          # Landing page briefing
-│   │   ├── SimulationPage.tsx    # 3D orbital visualization
-│   │   └── DashboardPage.tsx     # Mission control dashboard
-│   └── contexts/
-│       └── ThemeContext.tsx      # UI theme management
-│
+│   │   ├── Assistant.tsx         # The Gemini Aura interface
+│   │   ├── Dashboard.tsx         # Core real-time hub
+│   │   └── Flow.tsx              # Heatmap rendering
+│   └── App.tsx                   # Central router logic
 ├── Dockerfile                    # Production monolithic deployment
-├── package.json                  # Node.js dependencies
-└── tailwind.config.ts            # Styling constraints
+└── tailwind.config.ts            # High-end color definitions
 ```
 
 ---
 
-## 📊 Performance Benchmarks
-
-| Metric | Value | Notes |
-|--------|-------|-------|
-| **Propagator accuracy** | < 1m position error / 24h | RK4 with 10s substep |
-| **Conjunction detection** | O(N log N) | KD-Tree vs O(N²) brute force |
-| **CDM generation** | < 1 second | 50 sats × 2000 debris |
-| **TCA precision** | ± 0.5 seconds | Golden-section refinement |
-| **Evasion planning** | < 100 ms | CW linearized equations |
-| **Memory footprint** | < 150 MB | Numpy-optimized state vectors |
-| **API response time** | < 50 ms | Snapshot endpoint (p95) |
-
----
-
-## 🌍 Ground Station Network
-
-| Station | Location | Min Elevation | Coverage |
-|---------|----------|---------------|----------|
-| ISTRAC Bengaluru | 13.03°N, 77.52°E | 5° | Southern Asia |
-| Svalbard SvalSat | 78.23°N, 15.41°E | 5° | Arctic polar |
-| Goldstone DSN | 35.43°N, 116.89°W | 10° | North America |
-| Punta Arenas | 53.15°S, 70.92°W | 5° | South America |
-| IIT Delhi GS | 28.55°N, 77.19°E | 15° | Mission control |
-| McMurdo Station | 77.85°S, 166.67°E | 5° | Antarctic polar |
-
----
-
-## 🏆 Competition Scoring Targets
-
-| Criterion | Our Approach | Expected Score |
-|-----------|-------------|----------------|
-| **Physics Accuracy** | RK4+J2/J3/J4, WGS-84 constants | ★★★★★ |
-| **Algorithmic Efficiency** | O(N log N) KD-Tree, golden-section TCA | ★★★★★ |
-| **Fuel Optimization** | CW-linearized T-burns, fleet optimizer | ★★★★★ |
-| **Autonomous Decisions** | CDM cascade, blind conjunction pre-upload | ★★★★★ |
-| **Visualization** | Three.js 3D Earth, real-time dashboard | ★★★★★ |
-| **Code Quality** | Typed Python, modular architecture | ★★★★★ |
-| **Documentation** | Full physics derivations in docstrings | ★★★★★ |
-
----
-
-## 👥 Team
-
-**Team Name**: *AETHER*  
-**Competition**: National Space Hackathon 2026 — IIT Delhi
-
----
-
 <p align="center">
-  <sub>Built with 🚀 orbital mechanics, ☕ caffeine, and 🧮 numpy</sub><br/>
-  <sub>Every. Line. Physically. Accurate.</sub>
+  <sub>Built with 🚀 neural matrices, ☕ caffeine, and 🧮 data flow</sub><br/>
+  <sub>Fully optimized for Promptwars 2026.</sub>
 </p>
